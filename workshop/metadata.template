@@ -1,0 +1,10 @@
+"workshopitem" {
+  "appid" "221100"
+  "publishedfileid" "0"
+  "contentfolder" "==SRC=="
+  "previewfile" "==WC==/img/preview.png"
+  "visibility" "0"
+  "title" "AaD-Server-Mod"
+  "description" "Server mod for the After a Decade servers."
+  "changenote" "Initial version"
+}

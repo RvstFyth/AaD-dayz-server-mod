@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SRC_DIR="$PWD/src"
+SRC_DIR="$PWD/src/"
 WORKSHOP_DIR="$PWD/workshop"
 
 if [[ ! -f "${WORKSHOP_DIR}/metadata.vdf" ]]; then

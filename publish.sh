@@ -10,8 +10,8 @@ if [[ ! -f "${WORKSHOP_DIR}/metadata.vdf" ]]; then
     sed -i "s|==WC==|${WORKSHOP_DIR}|g" "${WORKSHOP_DIR}/metadata.vdf"
 fi
 
-read -rp "Steam username: " STEAM_USER
-read -rps "Steam password: " STEAM_PASSWORD
+read -p "Steam username: " STEAM_USER
 
+read -sp "Steam password: " STEAM_PW
 
-steamcmd +login "${STEAM_USER}" "${STEAM_PASSWORD}" +workshop_build_item "$WORKSHOP_DIR/metadata.vdf" +quit
+steamcmd +login "${STEAM_USER}" "${STEAM_PW}" +workshop_build_item "$WORKSHOP_DIR/metadata.vdf" +quit
